@@ -69,15 +69,16 @@ section{
 }
 #fullstack {
     border-left: 5px solid ;
-    border-image: linear-gradient(180deg lightsalmon tomato);
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 }
 #babydev{
-    border-right: 5px solid ;
+    border-left: 5px solid ;
     border-color: red;
-    border-image: linear-gradient(180deg rgb(4, 62, 255) rgb(53, 125, 249));
+    border-image: linear-gradient(180deg, rgb(0, 50, 214), rgb(84, 210, 252));
     border-image-slice: 1;
 }
+
 .exp_area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
